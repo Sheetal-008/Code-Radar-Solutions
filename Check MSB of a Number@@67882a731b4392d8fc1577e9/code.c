@@ -2,8 +2,8 @@
 int main() {
     int a,result;
     scanf("%d",&a);
-    result = a >> 31;
-    if (a == 0){
+    
+    if (a>>31 == 0){
         printf("Not Set");
     }
     else{
