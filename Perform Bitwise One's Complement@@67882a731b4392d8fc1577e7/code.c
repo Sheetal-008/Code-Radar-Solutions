@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int a,result;
     scanf("%d", &a);
-    result = !(a);
+    result = !a;
     printf("%d",result);
     return 0;
 }
