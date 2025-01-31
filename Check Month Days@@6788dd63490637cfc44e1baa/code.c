@@ -11,7 +11,7 @@ int main(){
         break;
         case 4:printf("30");
         break;
-        case 5:printf("31"):
+        case 5:printf("31");
         break;
         case 6:printf("30");
         break;
@@ -23,7 +23,7 @@ int main(){
         break;
         case 10:printf("31");
         break;
-        case 11:printf("30");
+        case 11: printf("30");
         break;
         case 12:printf("31");
         break;
