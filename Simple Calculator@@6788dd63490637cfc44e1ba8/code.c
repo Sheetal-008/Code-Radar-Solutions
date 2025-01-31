@@ -10,8 +10,14 @@ int main(){
            break;
         case ('*'): printf("%d",a*b);
            break;
-        case('/'): printf("%d",a/b);
-           break; 
+        case('/'):
+        swiitch(b){
+            case 0:printf("error");
+            break;
+            default:printf("%d",a/b);
+        }
+        
+        break; 
         default: printf("error");  
     }
     return 0;
