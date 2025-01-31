@@ -11,7 +11,7 @@ int main(){
         case ('*'): printf("%d",a*b);
         break;
         case('/'):
-        swiitch(b){
+        switch(b){
             case 0:printf("error");
             break;
             default:printf("%d",a/b);
