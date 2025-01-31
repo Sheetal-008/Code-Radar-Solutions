@@ -5,11 +5,11 @@ int main(){
     scanf("%d %d %c",&a,&b,&ch);
     switch(ch){
         case ('+'): printf("%d",a+b);
-           break;
+        break;
         case ('-'): printf("%d",a-b);
-           break;
+        break;
         case ('*'): printf("%d",a*b);
-           break;
+        break;
         case('/'):
         swiitch(b){
             case 0:printf("error");
