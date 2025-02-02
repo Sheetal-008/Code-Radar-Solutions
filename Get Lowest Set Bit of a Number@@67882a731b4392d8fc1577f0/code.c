@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a,count;
     scanf("%d",&a);
+    count == 1
     while (n&1==0){
         n = n>>1
         count++
