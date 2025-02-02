@@ -6,7 +6,7 @@ int main(){
     while :(!(a&(~32)))
     {
         count ++;
-        a<<=1;
+        a = a<<1;
     }
     printf("%d",count);
     
