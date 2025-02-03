@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
     int a,count=0,num;
-    scanf("%d",&a);
+    scanf("%d",&num);
     if (num == 0){
         printf("32");
     }
-    num=1<<31;
+    a=1<<31;
     while((num & a)==0){
         count ++;
         a>>=1;
