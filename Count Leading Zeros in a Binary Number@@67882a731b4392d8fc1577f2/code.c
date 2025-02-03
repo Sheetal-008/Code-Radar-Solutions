@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a,count=0,num;
     scanf("%d",&a);
-    int count = 0;
-    while :(!(a&(~32)))
-    {
+    if (num == 0){
+        printf("32");
+    }
+    num=1<<31;
+    while((num & a)==0){
         count ++;
-        a = a<<1;
+        a>>=1;
     }
     printf("%d",count);
-    
     return 0;
 }
