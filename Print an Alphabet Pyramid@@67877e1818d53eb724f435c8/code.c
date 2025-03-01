@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a,i,j,k;
+    int a,i,k;
     scanf("%d",&a);
     for (i=1;i<=a;i++){
         char ch='A';
