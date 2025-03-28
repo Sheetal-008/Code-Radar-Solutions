@@ -1,7 +1,7 @@
 #include <stdio.h>
 int PrimesInRange(int a, int b){
-    for(int i=a; i<=b; i++){
-        if (int i <2){
+    for(int num=a; num<=b; num++){
+        if (num <2){
             return 0;
         }
         for (int i=2; i<=num ; i++){
