@@ -6,5 +6,5 @@ void fibonacciSeries(int n){
         first = second;
         second = next;
     }
-
+    printf("\n");
 }
