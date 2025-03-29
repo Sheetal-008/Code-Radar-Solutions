@@ -5,7 +5,7 @@ void minmax(int arr[],int n){
         if(arr[i]<min) min = arr[i];
         if(arr[i]>max) max = arr[i];
     }
-    printf("%d",min);
+    printf("%d ",min);
     printf("%d",max);
 }
 int main(){
