@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int main(){
+
     int n,i;
     scanf("%d",&n);
     int arr[n];
@@ -18,12 +18,12 @@ int main(){
             max2=arr[i];
         }
     }
-}
+
 if (max2 == -1000){
     printf("-1");
-}
+    }
 else {
     printf("%d",max2);
-}
+    }
 return 0;
 }
