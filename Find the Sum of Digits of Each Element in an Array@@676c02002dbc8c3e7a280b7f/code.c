@@ -3,6 +3,9 @@ void sumofel(int arr[],int n){
     for (int i=0;i<n;i++){
         int sum = 0;
         int temp = arr[i];
+        if(temp<0){
+            temp = -temp;
+        }
         while(temp > 0){
             sum = sum + temp % 10;
             temp = temp / 10;
