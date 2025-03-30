@@ -1,15 +1,14 @@
 #include <stdio.h>
 int evenmax(int arr[],int n){
-    
+    int max=-1;
     for (int i=0;i<n;i++){
-        int max=arr[0];
+    if (arr[i]%2==0){
     if(arr[i]>max){
-        if (arr[i]%2==0){
             max = arr[i];
             }
         }
-    printf("%d",max);
     }
+    printf("%d",max);
     return -1;
 }
 int main(){
