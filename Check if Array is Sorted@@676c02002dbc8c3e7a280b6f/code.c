@@ -8,7 +8,7 @@ int sorted(int arr[],int n){
         //         arr[c+1]=temp;
         //     }
         // }
-        if (arr[p]==arr[p+1]){
+        if (arr[p]>arr[p+1]){
             return 0;
         }
     }
