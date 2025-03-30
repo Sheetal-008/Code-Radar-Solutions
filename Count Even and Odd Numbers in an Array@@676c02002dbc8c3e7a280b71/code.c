@@ -11,7 +11,7 @@ int countevodd(int arr[],int n){
     }
 }
 int main(){
-    int n;
+    int n,countev,countodd;
     scanf("%d",&n);
     int arr[n];
     for (int i=0;i<n;i++){
