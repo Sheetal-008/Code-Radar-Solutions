@@ -1,5 +1,5 @@
 #include <stdio.h>
-void primecount(int arr[],int n){
+int primecount(int arr[],int n){
     int count = 0;
     for (int i=0;i<n;i++){
         for (arr[i]=2;arr[i]<n;arr[i]++){
@@ -8,7 +8,7 @@ void primecount(int arr[],int n){
                 }
             }
         }
-        count++;
+        return count;
     }
 
 int main(){
