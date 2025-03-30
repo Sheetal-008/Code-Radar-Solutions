@@ -27,9 +27,6 @@ int main(){
             maxel = arr[i];
             
         }
-        else{
-            printf("-1");
-        }
     }
     if(freq>n/2){
         printf("%d ",maxel);
