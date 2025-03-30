@@ -10,7 +10,7 @@ int prime(int num){
     }
     return 1;
 }
-int countprimt(int arr[],int n){
+int countprime(int arr[],int n){
     int count =0;
     for (int i=0;i<n;i++){
         if (prime(arr[i])){
@@ -26,14 +26,7 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if (primecount(arr,n))
-    {
-        printf("%d",primecount(arr,n));
-    }
-    else
-    {
-        printf("0");
-    }
+    countprime(arr,n);
     return 0;
 
 }
