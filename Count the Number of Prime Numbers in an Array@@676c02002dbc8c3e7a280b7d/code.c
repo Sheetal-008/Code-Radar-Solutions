@@ -17,7 +17,7 @@ int countprime(int arr[],int n){
             count ++;
         }
     }
-    return count;
+    printf("%d",count);
 }
 int main(){
     int n;
