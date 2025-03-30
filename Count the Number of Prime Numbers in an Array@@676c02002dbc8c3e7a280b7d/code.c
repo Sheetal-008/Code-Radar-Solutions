@@ -14,6 +14,7 @@ int primecount(int arr[],int n){
         }
     }
     return 1;
+    count++;
 }
 int main(){
     int n;
@@ -24,7 +25,7 @@ int main(){
     }
     if (primecount(arr,n))
     {
-        printf("%d", arr[i]);
+        printf("%d",count);
     }
     else
     {
