@@ -7,7 +7,7 @@ void sumofel(int arr[],int n){
             sum = sum + temp % 10;
             temp = temp / 10;
         }
-        printf("%d",sum);
+        printf("%d ",sum);
     }
 }
 int main(){
