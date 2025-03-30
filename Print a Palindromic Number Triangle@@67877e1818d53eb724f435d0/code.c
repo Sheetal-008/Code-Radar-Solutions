@@ -10,7 +10,7 @@ int main(){
             printf("%d", j);
         
         // Print increasing sequence
-        for (j = 2; j <= i; j++)  
+        for (j = 1; j <= n-i; j++)  
             printf("%d", j);
         
         printf("\n");
