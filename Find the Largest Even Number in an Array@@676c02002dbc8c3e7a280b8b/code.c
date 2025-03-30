@@ -9,7 +9,7 @@ int evenmax(int arr[],int n){
         }
     }
     printf("%d",max);
-    return -1;
+
 }
 int main(){
     int n;
