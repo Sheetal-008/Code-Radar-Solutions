@@ -6,8 +6,8 @@ int evenmax(int arr[],int n){
             if(arr[i]>max){
                 max = arr[i];
             }
-            printf("%d",max);
         }
+            printf("%d",max);
     }
     return -1;
 }
