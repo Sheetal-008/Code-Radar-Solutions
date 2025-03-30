@@ -19,7 +19,7 @@ int main(){
         }
     }
 }
-if (max == -1000){
+if (max2 == -1000){
     printf("-1");
 }
 else {
