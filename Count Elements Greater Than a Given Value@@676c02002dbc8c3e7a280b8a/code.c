@@ -2,7 +2,8 @@
 void greaterthankey(int arr,int n,int key){
     int count = 0;
     for (int i=0;i<n;i++){
-        if (arr[i]>key){
+        int temp = arr[i]
+        if (temp>key){
             count ++;
         }
     }
