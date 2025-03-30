@@ -9,6 +9,8 @@ int countevodd(int arr[],int n){
             countodd ++;
         }
     }
+    printf("%d ",countev);
+    printf("%d",countodd);
 }
 int main(){
     int n,countev,countodd;
@@ -18,6 +20,5 @@ int main(){
         scanf("%d",&arr[i]);
     }
     countevodd(arr,n);
-    printf("%d",countev);
-    printf("%d",countodd);
+    
 }
