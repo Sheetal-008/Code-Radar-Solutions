@@ -1,6 +1,5 @@
 #include <stdio.h>
 void paliarray(int arr[],int n){
-    for (int i=0;i<n;i++){
         if (arr[i]=arr[n-i-1]){
             printf("YES");
         }
@@ -8,7 +7,7 @@ void paliarray(int arr[],int n){
            printf("NO");
         }
     }
-}
+
 int main(){
     int n;
     scanf("%d",&n);
