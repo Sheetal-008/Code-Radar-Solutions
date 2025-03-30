@@ -3,12 +3,12 @@ int primecount(int arr[],int n){
     int count = 0;
     for (int i=0;i<n;i++){
         if (arr[i]==0 || arr[i]==1){
-            return;
+            return 0;
         }
         else {
             for (arr[i]=2;arr[i]<n/2;arr[i]++){
                 if(arr[i]%n==0){
-                    return;
+                    return 0;
                 }
             }
         }
