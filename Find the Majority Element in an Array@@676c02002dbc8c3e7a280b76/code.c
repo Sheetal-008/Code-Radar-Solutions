@@ -25,11 +25,17 @@ int main(){
         if(count > freq){
             freq = count;
             maxel = arr[i];
-            printf("%d ",maxel);
+            
         }
         else{
             printf("-1");
         }
+    }
+    if(freq>n/2){
+        printf("%d ",maxel);
+    }
+    else {
+        printf("-1");
     }
     return 0;
 
