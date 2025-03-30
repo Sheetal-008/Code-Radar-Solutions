@@ -6,8 +6,8 @@ void greaterthankey(int arr[],int n,int key){
         if (temp>key){
             count ++;
         }
-    }
     printf("%d",count);
+    }
 }
 int main(){
     int n,key;
