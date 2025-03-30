@@ -26,8 +26,11 @@ int main(){
             freq = count;
             maxel = arr[i];
         }
+        else{
+            printf("-1");
+        }
     }
     printf("%d ",maxel);
-    return -1;
+    return 0;
 
 }
