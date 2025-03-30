@@ -1,16 +1,24 @@
 #include <stdio.h>
-int primecount(int arr[],int n){
-    int count = 0;
-    for (int i=0;i<n;i++){
-        for (arr[i]=2;arr[i]<n;arr[i]++){
-            if(arr[i]%n!=0){
-                count ++;
-                }
-            }
-        }
-        return count;
+int prime(int num){
+    if (num<2){
+        return 0;
     }
-
+    for (int i=2;i<num;i++){
+        if(num%i==0){
+            return 0;
+        }
+    }
+    return 1;
+}
+int countprimt(int arr[],int n){
+    int count =0;
+    for (int i=0;i<n;i++){
+        if (prime(arr[i])){
+            count ++;
+        }
+    }
+    return count;
+}
 int main(){
     int n;
     scanf("%d",&n);
