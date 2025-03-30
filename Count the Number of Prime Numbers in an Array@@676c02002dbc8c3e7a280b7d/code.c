@@ -1,21 +1,16 @@
 #include <stdio.h>
-int primecount(int arr[],int n){
+void primecount(int arr[],int n){
     int count = 0;
     for (int i=0;i<n;i++){
-        if (arr[i]==0 || arr[i]==1){
-            return 0;
-        }
-        else {
-            for (arr[i]=2;arr[i]<n/2;arr[i]++){
-                if(arr[i]%n==0){
-                    return 0;
+        for (arr[i]=2;arr[i]<n;arr[i]++){
+            if(arr[i]%n!=0){
+                count ++;
                 }
             }
         }
+        count++;
     }
-    return 1;
-    count++;
-}
+
 int main(){
     int n;
     scanf("%d",&n);
