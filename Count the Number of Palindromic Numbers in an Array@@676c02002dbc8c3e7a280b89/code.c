@@ -3,7 +3,7 @@ void palicount(int arr[],int n){
     int count = 0;
     for (int i =0;i<n;i++){
         int temp = arr[i];
-        int original = temp;
+        int original = arr[i];
         int reverse = 0;
         while(temp > 0){
             reverse = reverse*10 + temp % 10;
