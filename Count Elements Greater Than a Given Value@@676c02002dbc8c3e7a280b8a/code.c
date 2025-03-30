@@ -12,10 +12,10 @@ void greaterthankey(int arr[],int n,int key){
 int main(){
     int n,key;
     scanf("%d",&n);
+    scanf("%d",&key);
     int arr[n];
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&key);
     greaterthankey(arr,n,key);
 }
