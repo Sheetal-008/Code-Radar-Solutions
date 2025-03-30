@@ -4,8 +4,10 @@ void paliarray(int arr[],int n){
         if (arr[i]=arr[n-i-1]){
             printf("YES");
         }
+        else{
+           printf("NO");
+        }
     }
-    printf("NO");
 }
 int main(){
     int n;
