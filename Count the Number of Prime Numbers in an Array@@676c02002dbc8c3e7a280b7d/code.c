@@ -25,7 +25,7 @@ int main(){
     }
     if (primecount(arr,n))
     {
-        printf("%d",count);
+        printf("%d",primecount(arr,n));
     }
     else
     {
