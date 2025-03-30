@@ -1,8 +1,8 @@
 #include <stdio.h>
 void greaterthankey(int arr[],int n,int key){
     int count = 0;
+    int temp = arr[i];
     for (int i=0;i<n;i++){
-        int temp = arr[i];
         if (temp>key){
             count ++;
         }
