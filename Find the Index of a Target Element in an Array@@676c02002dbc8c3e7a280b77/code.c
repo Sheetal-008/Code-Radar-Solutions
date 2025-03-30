@@ -15,6 +15,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&key);
-    int res = linearsearch(arr,n,key);
-    printf("%d",result);
+    
+    printf("%d",linearsearch(arr,n,key));
 }
