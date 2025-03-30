@@ -6,10 +6,11 @@ int evenmax(int arr[],int n){
         if (arr[i]%2==0){
             max = arr[i];
             }
-        }
-        else {
+            else {
             printf("-1");
         }
+        }
+        
     }
     printf("%d",max);
     
