@@ -1,5 +1,5 @@
 #include <stdio.h>
-int palicount(int arr[],int n){
+void palicount(int arr[],int n){
     int count = 0;
     for (int i =0;i<n;i++){
         int temp = arr[i];
