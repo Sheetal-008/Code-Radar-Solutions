@@ -1,6 +1,6 @@
 #include <stdio.h>
 int evenmax(int arr[],int n){
-    int max=-1;
+    int max=-1000;
     for (int i=0;i<n;i++){
     if (arr[i]%2==0){
     if(arr[i]>max){
