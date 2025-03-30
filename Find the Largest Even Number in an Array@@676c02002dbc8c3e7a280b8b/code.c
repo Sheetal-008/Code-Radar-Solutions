@@ -1,7 +1,8 @@
 #include <stdio.h>
 int evenmax(int arr[],int n){
-    int max=arr[0];
+    
     for (int i=0;i<n;i++){
+        int max=arr[0];
     if(arr[i]>max){
         if (arr[i]%2==0){
             max = arr[i];
