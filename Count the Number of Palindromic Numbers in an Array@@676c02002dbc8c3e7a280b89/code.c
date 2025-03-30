@@ -10,7 +10,7 @@ int palicount(int arr[],int n){
         }
         count ++;
     }
-    return count;
+    printf("%d",count);
 }
 int main(){
     int n;
@@ -19,5 +19,6 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    palicount(arr,n);
+   palicount(arr,n);
+   
 }
