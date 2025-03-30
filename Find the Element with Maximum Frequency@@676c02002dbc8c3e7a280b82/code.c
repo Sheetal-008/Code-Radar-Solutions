@@ -27,6 +27,6 @@ int main(){
             maxel = arr[i];
         }
     }
-    printf("%d %d",maxel,freqmax);
+    printf("%d",maxel);
     return 0;
 }
