@@ -9,7 +9,6 @@ int sorted(int arr[],int n){
             }
         }
     }
-    printf("Not Sorted");
 }
 int main(){
     int n;
@@ -20,6 +19,9 @@ int main(){
     }
     if(sorted(arr,n)){
         printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
     }
     
 }
