@@ -8,8 +8,8 @@ int evenmax(int arr[],int n){
             max = arr[i];
             }
         }
-    }
     printf("%d",max);
+    }
     return -1;
 }
 int main(){
