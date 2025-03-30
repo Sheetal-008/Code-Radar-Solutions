@@ -1,13 +1,15 @@
 #include <stdio.h>
-void paliarray(int arr[],int n){
+int paliarray(int arr[],int n){
+    for (int i=0;i<n;i++){
         if (arr[i]=arr[n-i-1]){
-            printf("YES");
+            return 1;
         }
         else{
-           printf("NO");
+           return 0;
         }
     }
-
+    
+}
 int main(){
     int n;
     scanf("%d",&n);
@@ -15,5 +17,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    paliarray(arr,n);
+    
+   
+    if (paliarray(arr,n)!=0){
+        printf("YES");
+    }
+    else {
+        printf("NO");
+    }
 }
