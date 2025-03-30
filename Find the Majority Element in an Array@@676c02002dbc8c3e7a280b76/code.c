@@ -25,12 +25,12 @@ int main(){
         if(count > freq){
             freq = count;
             maxel = arr[i];
+            printf("%d ",maxel);
         }
         else{
             printf("-1");
         }
     }
-    printf("%d ",maxel);
     return 0;
 
 }
