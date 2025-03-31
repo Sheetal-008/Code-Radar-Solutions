@@ -1,14 +1,18 @@
 #include <stdio.h>
-int printPrimesInRange(int a, int b){
-    for(int num=a; num<=b; num++){
-        if (num <2){
-            return 0;
+void primerange(int arr[],int a,int b){
+    for (int i=a;i<=b;i++){
+        int num = i;
+        int isprime = 1;
+        if(num==0||num==1){
+            isprime = 0;   
         }
-        for (int i=2; i<=num ; i++){
-            if(num%i==0){
-                return 0;
+        for (int j=0;j<num;j++){
+            if(num%j==0){
+                isprime = 0;
             }
         }
-        return 1;
+        if(isprime == 1){
+            printf("%d ",num);
+        }
     }
 }
