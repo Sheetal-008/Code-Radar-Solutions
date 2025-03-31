@@ -8,7 +8,7 @@ void reverse(int arr[],int start,int end){
         end--;
     }
 }
-void rotate(int arr,int n,int k){
+void rotate(int arr[],int n,int k){
     k = k%10;
     if(k==0){
         return ;
