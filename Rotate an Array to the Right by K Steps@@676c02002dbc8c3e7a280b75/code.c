@@ -9,10 +9,10 @@ void reverse(int arr[],int start,int end){
     }
 }
 void rotate(int arr[],int n,int k){
-    k = k%10;
-    if(k==0){
-        return ;
-    }
+    // k = k%10;
+    // if(k==0){
+    //     return ;
+    // }
     reverse(arr,0,n-1);
     reverse(arr,0,k-1);
     reverse(arr,k,n-1);
