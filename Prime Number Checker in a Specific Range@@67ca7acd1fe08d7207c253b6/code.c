@@ -7,7 +7,7 @@ void printPrimesInRange(int a,int b){
         if(num==0||num==1){
             isprime = 0;   
         }
-        for (int j=2;j<num;j++){
+        for (int j=2;j*j<=num;j++){
             if(num%j==0){
                 isprime = 0;
                 break;
